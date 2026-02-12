@@ -1,4 +1,4 @@
-<!doctype html>
+html = """<!doctype html>
 <html>
   <head>
     <title>page title</title>
@@ -15,3 +15,12 @@
     </div>
   </body>
 </html>
+"""
+
+# Print to stdout
+print(html)
+
+# Optionally write back to HTML file
+output_path = r"c:\Users\nikit\first_project\web_pages\index.html"
+with open(output_path, "w", encoding="utf-8") as f:
+    f.write(html)
