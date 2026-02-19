@@ -3,7 +3,8 @@
           background-color: lightblue;
         }
         h1 {
-          color: white;
+          color: red;
+	  background-color: white;
           text-align: center;
         }
 </style>
